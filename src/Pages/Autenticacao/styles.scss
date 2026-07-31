@@ -1,0 +1,48 @@
+.container-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #00861649;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.3);
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    input {
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  }
+  .lembrar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+  }
+  .acoes {
+    display: flex;
+    justify-content: center;
+    button {
+      padding: 10px 20px;
+      background-color: #008616;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: #006f12;
+      }
+    }
+  }
+}
